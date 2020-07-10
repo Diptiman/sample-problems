@@ -21,18 +21,35 @@ package com.diptiman.sample;
 
 import java.util.Arrays;
 import java.util.HashSet;
+import java.util.Set;
 
 public class LongestSubstringWithoutRepeatingChars {
 
     public static String findLongestSubstr(String str) {
         String longestSubstr = "";
+        int count = 0;
         HashSet<Character> set = new HashSet<>();
         for(int i =0; i<= str.length() - 1; i++) {
             if(set.contains(str.charAt(i))) {
-                if(set.size() > longestSubstr.length()) {
-                    longestSubstr = set.toString().
-                            replace(",", "").replace("[", "").
-                            replace("]", "").replace(" ", "");
+                if(set.size() > count) {
+                    longestSubstr = set.toString();
+                }
+                set.clear();
+                set.add(str.charAt(i));
+            } else {
+                set.add(str.charAt(i));
+            }
+        }
+        return longestSubstr;
+    }
+
+    public static int lengthOfLongestSubstring(String str) {
+        int longestSubstr = 0;
+        Set<Character> set = new HashSet<>();
+        for(int i =0; i<= str.length() - 1; i++) {
+            if(set.contains(str.charAt(i))) {
+                if(set.size() > longestSubstr) {
+                    longestSubstr = set.size();
                 }
                 set.clear();
                 set.add(str.charAt(i));
@@ -46,5 +63,6 @@ public class LongestSubstringWithoutRepeatingChars {
     public static void main(String[] args) {
 
         System.out.println(findLongestSubstr("pwwkew"));
+        System.out.println(lengthOfLongestSubstring("pwwkew"));
     }
 }
