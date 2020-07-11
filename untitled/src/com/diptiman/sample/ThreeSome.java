@@ -44,7 +44,6 @@ public class ThreeSome {
                         set.add(pair);
                     }
                 }
-                j++;
             }
         }
         return triplets;
