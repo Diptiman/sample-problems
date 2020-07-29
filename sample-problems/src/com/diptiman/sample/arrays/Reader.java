@@ -1,4 +1,4 @@
-package com.diptiman.sample;
+package com.diptiman.sample.arrays;
 
 /**
  * The read4 API is defined in the parent class Reader4.

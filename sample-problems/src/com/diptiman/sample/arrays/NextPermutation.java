@@ -1,4 +1,4 @@
-package com.diptiman.sample;
+package com.diptiman.sample.arrays;
 
 //Implement next permutation, which rearranges numbers into the lexicographically next greater permutation of numbers.
 //

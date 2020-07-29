@@ -1,4 +1,4 @@
-package com.diptiman.sample;
+package com.diptiman.sample.arrays;
 
 import java.util.*;
 
