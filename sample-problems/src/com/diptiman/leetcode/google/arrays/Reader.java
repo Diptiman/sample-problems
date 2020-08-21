@@ -1,4 +1,4 @@
-package com.diptiman.sample.arrays;
+package com.diptiman.leetcode.google.arrays;
 
 /**
  * The read4 API is defined in the parent class Reader4.

@@ -1,4 +1,4 @@
-package com.diptiman.sample.recursion;
+package com.diptiman.leetcode.google.recursion;
 
 import java.util.List;
 
@@ -8,6 +8,7 @@ public class WordSquares {
         for(String word:words) {
 
         }
+        return null;
     }
 
     public static void main(String[] args) {

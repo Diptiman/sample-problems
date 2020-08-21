@@ -1,4 +1,4 @@
-package com.diptiman.sample.arrays;
+package com.diptiman.leetcode.google.arrays;
 
 //Implement next permutation, which rearranges numbers into the lexicographically next greater permutation of numbers.
 //

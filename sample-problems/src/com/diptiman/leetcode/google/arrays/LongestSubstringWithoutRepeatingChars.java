@@ -1,4 +1,4 @@
-package com.diptiman.sample.arrays;
+package com.diptiman.leetcode.google.arrays;
 
 //Given a string, find the length of the longest substring without repeating characters.
 //
@@ -19,7 +19,6 @@ package com.diptiman.sample.arrays;
 //        Explanation: The answer is "wke", with the length of 3.
 //        Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
 
-import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 

@@ -1,4 +1,4 @@
-package com.diptiman.sample.arrays;
+package com.diptiman.leetcode.google.arrays;
 
 import java.util.*;
 

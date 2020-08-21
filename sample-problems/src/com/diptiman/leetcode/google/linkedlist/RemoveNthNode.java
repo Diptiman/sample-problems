@@ -1,4 +1,4 @@
-package com.diptiman.sample.linkedlist;
+package com.diptiman.leetcode.google.linkedlist;
 
 /**
  * Definition for singly-linked list.
