@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="462a878f-fc11-4755-9cef-3bd612d2b414" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-problems/sample-problems-google.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sample-problems/sample-problems-google.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sample-problems-google/com/diptiman/leetcode/google/arrays/MergeSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sample-problems-google/com/diptiman/leetcode/google/arrays/MergeSortedArray.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -522,10 +521,11 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MergeSortedArray">
+  <component name="RunManager" selected="Application.FindingNumbersWithSumDiff">
     <configuration default="true" type="tests" factoryName="Nosetests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -584,6 +584,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="FindingNumbersWithSumDiff" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.diptiman.leetcode.google.arrays.FindingNumbersWithSumDiff" />
+      <module name="sample-problems-google" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.diptiman.leetcode.google.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LongestPalindromicSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.diptiman.leetcode.google.arrays.LongestPalindromicSubstring" />
       <module name="sample-problems-google" />
@@ -603,19 +616,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.diptiman.leetcode.google.arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MeetingRooms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.diptiman.sample.arrays.MeetingRooms" />
-      <module name="sample-problems-google" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.diptiman.sample.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -650,19 +650,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.FindingNumbersWithSumDiff" />
       <item itemvalue="Application.LongestPalindromicSubstring" />
       <item itemvalue="Application.LongestSubstringWithoutRepeatingChars" />
       <item itemvalue="Application.MergeSortedArray" />
-      <item itemvalue="Application.MeetingRooms" />
       <item itemvalue="Application.Reader" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindingNumbersWithSumDiff" />
         <item itemvalue="Application.MergeSortedArray" />
         <item itemvalue="Application.LongestPalindromicSubstring" />
         <item itemvalue="Application.LongestSubstringWithoutRepeatingChars" />
         <item itemvalue="Application.Reader" />
-        <item itemvalue="Application.MeetingRooms" />
       </list>
     </recent_temporary>
   </component>
@@ -677,7 +677,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594275463542</updated>
-      <workItem from="1688972654788" duration="10833000" />
+      <workItem from="1688972654788" duration="14885000" />
     </task>
     <servers />
   </component>
@@ -770,8 +770,29 @@
           <line>13</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sample-problems/src/com/diptiman/leetcode/google/arrays/FindingNumbersWithSumDiff.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sample-problems/src/com/diptiman/leetcode/google/arrays/FindingNumbersWithSumDiff.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.lang.Integer" memberName="value" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="diff-nums1[i]" />
+        <watch expression="nums1[i]" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/deploy.jar!/com/sun/deploy/util/OrderedHashSet.class">
