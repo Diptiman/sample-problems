@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="462a878f-fc11-4755-9cef-3bd612d2b414" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-problems/src/com/diptiman/sample/recursion/WordSquares.java" beforeDir="false" afterPath="$PROJECT_DIR$/sample-problems/src/com/diptiman/sample/recursion/WordSquares.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample-problems/sample-problems-google.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sample-problems/sample-problems-google.iml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.gradle/" />
-    <ignored path="$PROJECT_DIR$/build/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,40 +19,17 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1618919852">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.28" value="1" />
-          <entry key="project.open.time.3" value="2" />
-          <entry key="project.opened" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="2" />
-          <entry key="java" value="16" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="16" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="2579" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="2579" />
-        </counts>
-      </usages-collector>
-    </session>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -386,7 +364,7 @@
     </option>
     <option name="projectSyncType">
       <map>
-        <entry key="$PROJECT_DIR$/../../../Motocho/work/quotes-data-service" value="PREVIEW" />
+        <entry key="$USER_HOME$/Motocho/work/quotes-data-service" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../../APM/agent-configuration-service" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../../APM/libagent" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../../APM/serverless_log_capture" value="PREVIEW" />
@@ -418,7 +396,7 @@
         <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
         <entry key="$PROJECT_DIR$/../../gradle/docker-application-plugin" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../../heckathon/sample-project-5" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../schema-service" value="PREVIEW" />
+        <entry key="$USER_HOME$/schema-service" value="PREVIEW" />
       </map>
     </option>
   </component>
@@ -445,6 +423,7 @@
     <option name="width" value="1680" />
     <option name="height" value="970" />
   </component>
+  <component name="ProjectId" id="2SN2KS3k6lKiTpQq4EEpUbKMk8M" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -525,87 +504,28 @@
       <pane id="AndroidView" />
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597938928300" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.Reader">
-    <configuration name="ContainerWithMostWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.diptiman.sample.arrays.ContainerWithMostWater" />
-      <module name="sample-problems-google" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.diptiman.sample.arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MeetingRooms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.diptiman.sample.arrays.MeetingRooms" />
-      <module name="sample-problems-google" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.diptiman.sample.arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Reader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.diptiman.sample.arrays.Reader" />
-      <module name="sample-problems-google" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.diptiman.sample.arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RotateImage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.diptiman.sample.arrays.RotateImage" />
-      <module name="sample-problems-google" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.diptiman.sample.arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreeSome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.diptiman.sample.arrays.ThreeSome" />
-      <module name="sample-problems-google" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.diptiman.sample.arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/diptimanadak/Downloads/work/sample-problems",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.MergeSortedArray">
     <configuration default="true" type="tests" factoryName="Nosetests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -664,23 +584,89 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="LongestPalindromicSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.diptiman.leetcode.google.arrays.LongestPalindromicSubstring" />
+      <module name="sample-problems-google" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.diptiman.leetcode.google.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestSubstringWithoutRepeatingChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.diptiman.leetcode.google.arrays.LongestSubstringWithoutRepeatingChars" />
+      <module name="sample-problems-google" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.diptiman.leetcode.google.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MeetingRooms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.diptiman.sample.arrays.MeetingRooms" />
+      <module name="sample-problems-google" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.diptiman.sample.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.diptiman.leetcode.google.arrays.MergeSortedArray" />
+      <module name="sample-problems-google" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.diptiman.leetcode.google.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Reader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.diptiman.sample.arrays.Reader" />
+      <module name="sample-problems-google" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.diptiman.sample.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.ContainerWithMostWater" />
-      <item itemvalue="Application.ThreeSome" />
-      <item itemvalue="Application.RotateImage" />
+      <item itemvalue="Application.LongestPalindromicSubstring" />
+      <item itemvalue="Application.LongestSubstringWithoutRepeatingChars" />
+      <item itemvalue="Application.MergeSortedArray" />
       <item itemvalue="Application.MeetingRooms" />
       <item itemvalue="Application.Reader" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSortedArray" />
+        <item itemvalue="Application.LongestPalindromicSubstring" />
+        <item itemvalue="Application.LongestSubstringWithoutRepeatingChars" />
         <item itemvalue="Application.Reader" />
         <item itemvalue="Application.MeetingRooms" />
-        <item itemvalue="Application.RotateImage" />
-        <item itemvalue="Application.ThreeSome" />
-        <item itemvalue="Application.ContainerWithMostWater" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -691,6 +677,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594275463542</updated>
+      <workItem from="1688972654788" duration="10833000" />
     </task>
     <servers />
   </component>
@@ -737,8 +724,8 @@
       <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -746,38 +733,42 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/sample-problems/src/com/diptiman/sample/arrays/LongestSubstringWithoutRepeatingChars.java</url>
           <line>31</line>
-          <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/sample-problems/src/com/diptiman/sample/arrays/ThreeSome.java</url>
           <line>34</line>
-          <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/sample-problems/src/com/diptiman/sample/arrays/ThreeSome.java</url>
           <line>30</line>
-          <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/sample-problems/src/com/diptiman/sample/arrays/ThreeSome.java</url>
           <line>40</line>
-          <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/sample-problems/src/com/diptiman/sample/arrays/ThreeSome.java</url>
           <line>20</line>
-          <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/sample-problems/src/com/diptiman/sample/arrays/ThreeSome.java</url>
           <line>19</line>
-          <properties />
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sample-problems/src/com/diptiman/leetcode/google/arrays/LongestPalindromicSubstring.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sample-problems/src/com/diptiman/leetcode/google/arrays/LongestPalindromicSubstring.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
